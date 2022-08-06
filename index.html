@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <h1 class="logo">Rently</h1>
+    <nav class="menu">
+      <ul class="menu-list">
+        <li class="menu-list-item">
+          <a href="#About" class="menu-list-item-link">About</a>
+        </li>
+        <li class="menu-list-item">
+          <a href="#Why_us" class="menu-list-item-link">Why Us</a>
+        </li>
+        <li class="menu-list-item">
+          <a href="#Our_vehicles" class="menu-list-item-link">Our vehicles</a>
+        </li>
+        <li class="menu-list-item">
+          <a href="#Reviews" class="menu-list-item-link">Reviews</a>
+        </li>
+        <li class="menu-list-item">
+          <a href="#Contacts" class="menu-list-item-link">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="sign">
+      <a href="" class="sign_up-link">Sign Up</a>
+      <bottom class="sign_in">Sign In</bottom>
+    </div>
+  </header>
+  <main class="main">
+    <section id="About" class="about">
+      <div class="about-container">
+        <h2 class="about-container-heading">Get your key</h2>
+        <p class="about-container-title">
+          Fast and easy way to rent a car. Choose from over 200 unique 
+          makes and models frominexpensive everydaydrivers to rare 
+          spesiality cars. You can find the perfect car for you. 
+          See what we can offer you!
+        </p>
+        <article class="about-container-find">
+          <div class="about-container-find-text">
+            <label for="name">Enter a location</label>
+            <input type="text" id="name" name="name" value="Enter_location..."
+            required minlength="4" maxlength="8" size="10">
+          </div>
+          <div class="about-container-find-pick-up_date"></div>
+            <label for="start">Pick-up date</label>
+            <input type="date" id="start" name="pick-up_date"
+            min="2022-01-01T00:00" max="2022-12-31T00:59">
+          </div>
+          <div class="about-container-find-return_date"></div>
+            <label for="end">Return date</label>
+            <input type="date" id="start" name="return_date"
+            min="2022-01-01T00:00" max="2022-12-31T00:59">
+          </div>
+          <input type="submit" value="Find a car">
+        </article>
+      </div>
+    </section>
+    <section id="Why_us" class="why_us"></section>
+    <section id="Our_vehicles" class="our_vehicles"></section>
+    <section id="Reviews" class="reviews"></section>
+    <section id="Contacts" class="contacts"></section>
+  </main>
+  <footer class="footer"></footer>
+</body>
+</html>
